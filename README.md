@@ -3,6 +3,7 @@
 In this assignment, you will be tasked with creating and deploying a simple Express server. The server will have four GET endpoints, two that serve HTML and two that serve raw data. One of those data endpoints will use query parameters.
 
 **Table of Contents**
+
 - [Short Responses](#short-responses)
 - [Starter Code](#starter-code)
 - [Grading](#grading)
@@ -29,6 +30,7 @@ Your grade on this assignment will be determined by the number of tasks you are 
 Feel free to mark these tasks as complete/incomplete, however your instructor will likely modify your tasks when grading.
 
 This assignment has 12 tasks:
+
 - 3 setup tasks
 - 8 server application tasks
 - 1 deployment task
@@ -38,14 +40,16 @@ You got this!
 ## Part 1 - Setup
 
 **Create your files:**
-* Create a `server` folder and `cd` into it.
-* Run `npm init -Y` to create a `package.json` file.
-* Create an `index.js` file in the `server` folder.
+
+- Create a `server` folder and `cd` into it.
+- Run `npm init -Y` to create a `package.json` file.
+- Create an `index.js` file in the `server` folder.
 
 **Configure package.json**
-* Run `npm i express` to install express
-* Run `npm i -D nodemon` to install Nodemon as a dev dependency
-* Modify the `package.json` file with the following `"scripts"`:
+
+- Run `npm i express` to install express
+- Run `npm i -D nodemon` to install Nodemon as a dev dependency
+- Modify the `package.json` file with the following `"scripts"`:
 
 ```json
 "scripts": {
@@ -66,12 +70,11 @@ Before continuing, make sure that these tasks are completed!
 - [ ] `package.json` has `express` installed as a dependency and `nodemon` as a dev dependency
 - [ ] `package.json` has a `"dev"` script that uses `nodemon` and a `"start"` script that uses `node`
 
-
 ## Part 2 - Writing the Server Application
 
 Now it is time to write the server application! Refer to the [lecture notes](https://github.com/The-Marcy-Lab-School/8-0-0-intro-to-express) to build your Express server application.
 
-The server should have four GET endpoints, two that serve HTML and two that serve raw data. One of those data endpoints will use query parameters. It is entirely up to *you* to decide the names of the endpoints your server makes available. However, the endpoints should follow the requirements below.
+The server should have four GET endpoints, two that serve HTML and two that serve raw data. One of those data endpoints will use query parameters. It is entirely up to _you_ to decide the names of the endpoints your server makes available. However, the endpoints should follow the requirements below.
 
 As you build your server, visit http://localhost:8080 (or whatever port number you chose) and test out your server!
 
@@ -97,8 +100,9 @@ Here is an example of a deployed server: https://github.com/benspector-mls/first
 
 **Deployment Technical Requirements**
 
-- [ ] Your GitHub page has a link to the deployed server in the About section. 
+- [ ] Your GitHub page has a link to the deployed server in the About section.
 
 ## Submit
 
 Submit a link to your GitHub repository on Canvas.
+https://eight-0-0-assignment-m10mo.onrender.com/
